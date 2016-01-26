@@ -1,0 +1,388 @@
+.green-icon-page-creator, .green-icon-promotions, .green-icon-messages, .green-icon-customers, .green-icon-dash, .green-icon-analytics, .marker, .blue-icon-analytics, .blue-icon-page-creator, .blue-icon-promotions, .blue-icon-messages, .blue-icon-customers, .blue-icon-dashboard, .icon-shadow, .menu-spacer, .icon-help, .icon-settings, .search-icon, .dash-background, .search-bar, .an-button-left, .an-button-right, .an-bottom-line, .an-div-line, .tasks-settings-icon, .task-bottom-line, .grey-one, .grey-head, .customer-count-line, .blue-head, .tasks-very-bottom-line, .task-two, .task-three, .task-four, .article, .rec-dash-line, .green-check, .lightbulb, .footer-bar, .footer-social, .footer-links-line, .footer-updates, .footer-logout, .piechart, .bargraph, .social-buttons, .orange-check, .date-search, .analytics-bottom-line, .customers-bottom-line, .center-ribbon, .right-ribbon, .left-ribbon, .green-head, .green-graph, .outline, .orange-chart, .orange-head, .dyk-next, .dyk-back, .dyk-background, .ad-three, .ad-two, .ad-one{
+	background: url(sprites.png) no-repeat;
+        display: block;
+}
+
+.green-icon-page-creator{
+	background-position: -133px -3px ;
+	width: 46px;
+	height: 51px;
+}
+
+.green-icon-promotions{
+	background-position: -62px -10px ;
+	width: 51px;
+	height: 51px;
+}
+
+.green-icon-messages{
+	background-position: -288px -5px ;
+	width: 58px;
+	height: 49px;
+}
+
+.green-icon-customers{
+	background-position: -375px -4px ;
+	width: 63px;
+	height: 43px;
+}
+
+.green-icon-dash{
+	background-position: -207px -1px ;
+	width: 59px;
+	height: 59px;
+}
+
+.green-icon-analytics{
+	background-position: -461px 0;
+	width: 43px;
+	height: 51px;
+}
+
+.marker{
+	background-position: -529px -23px ;
+	width: 40px;
+	height: 10px;
+}
+
+.blue-icon-analytics{
+	background-position: -459px -65px ;
+	width: 43px;
+	height: 51px;
+}
+
+.blue-icon-page-creator{
+	background-position: -136px -75px ;
+	width: 46px;
+	height: 51px;
+}
+
+.blue-icon-promotions{
+	background-position: -63px -77px ;
+	width: 51px;
+	height: 51px;
+}
+
+.blue-icon-messages{
+	background-position: -291px -72px ;
+	width: 58px;
+	height: 49px;
+}
+
+.blue-icon-customers{
+	background-position: -375px -68px ;
+	width: 63px;
+	height: 43px;
+}
+
+.blue-icon-dashboard{
+	background-position: -208px -70px ;
+	width: 59px;
+	height: 59px;
+}
+
+.icon-shadow{
+	background-position: -587px -25px ;
+	width: 65px;
+	height: 5px;
+}
+
+.menu-spacer{
+	background-position: -671px -11px ;
+	width: 1px;
+	height: 30px;
+}
+
+.icon-help{
+	background-position: -559px -63px ;
+	width: 20px;
+	height: 20px;
+}
+
+.icon-settings{
+	background-position: -614px -61px ;
+	width: 20px;
+	height: 20px;
+}
+
+.search-icon{
+	background-position: -664.0000305175781px -61px ;
+	width: 23px;
+	height: 22px;
+}
+
+.dash-background{
+	background-position: -62px -149px ;
+	width: 960px;
+	height: 75px;
+}
+
+.search-bar{
+	background-position: -519px -102px ;
+	width: 260px;
+	height: 35px;
+}
+
+.an-button-left{
+	background-position: -667px -13px ;
+	width: 22px;
+	height: 22px;
+}
+
+.an-button-right{
+	background-position: -714.0000305175781px -14px ;
+	width: 22px;
+	height: 22px;
+}
+
+.an-bottom-line{
+	background-position: -67px -240px ;
+	width: 940px;
+	height: 35px;
+}
+
+.an-div-line{
+	background-position: -1073px -162px ;
+	width: 1px;
+	height: 50px;
+}
+
+.tasks-settings-icon{
+	background-position: -768.0000305175781px -15px ;
+	width: 20px;
+	height: 20px;
+}
+
+.task-bottom-line{
+	background-position: -805.0000305175781px -127px ;
+	width: 340px;
+	height: 1px;
+}
+
+.grey-one{
+	background-position: -715.0000305175781px -59px ;
+	width: 24px;
+	height: 24px;
+}
+
+.grey-head{
+	background-position: -814px -15px ;
+	width: 20px;
+	height: 20px;
+}
+
+.customer-count-line{
+	background-position: -853.0000305175781px -12px ;
+	width: 60px;
+	height: 30px;
+}
+
+.blue-head{
+	background-position: -816.0000305175781px -61px ;
+	width: 20px;
+	height: 20px;
+}
+
+.tasks-very-bottom-line{
+	background-position: -851.0000305175781px -54px ;
+	width: 340px;
+	height: 35px;
+}
+
+.task-two{
+	background-position: -931.0000305175781px -16px ;
+	width: 24px;
+	height: 24px;
+}
+
+.task-three{
+	background-position: -977.0000305175781px -16px ;
+	width: 24px;
+	height: 24px;
+}
+
+.task-four{
+	background-position: -1016.0000305175781px -14px ;
+	width: 24px;
+	height: 24px;
+}
+
+.article{
+	background-position: -80px -299px ;
+	width: 19px;
+	height: 35px;
+}
+
+.rec-dash-line{
+	background-position: -126px -310px ;
+	width: 320px;
+	height: 1px;
+}
+
+.green-check{
+	background-position: -77px -351px ;
+	width: 23px;
+	height: 32px;
+}
+
+.lightbulb{
+	background-position: -77px -411px ;
+	width: 14px;
+	height: 35px;
+}
+
+.footer-bar{
+	background-position: 0 -701px ;
+	width: 1200px;
+	height: 61px;
+}
+
+.footer-social{
+	background-position: -13px -676px ;
+	width: 76px;
+	height: 16px;
+}
+
+.footer-links-line{
+	background-position: -115px -676px ;
+	width: 1px;
+	height: 20px;
+}
+
+.footer-updates{
+	background-position: -366px -672px ;
+	width: 492px;
+	height: 13px;
+}
+
+.footer-logout{
+	background-position: -138.00003051757812px -663px ;
+	width: 93px;
+	height: 41px;
+}
+
+.piechart{
+	background-position: -121px -314px ;
+	width: 185px;
+	height: 240px;
+}
+
+.bargraph{
+	background-position: -327px -327px ;
+	width: 420px;
+	height: 231px;
+}
+
+.social-buttons{
+	background-position: -8.000030517578125px -612px ;
+	width: 387px;
+	height: 18px;
+}
+
+.orange-check{
+	background-position: -418.0000305175781px -613px ;
+	width: 24px;
+	height: 22px;
+}
+
+.date-search{
+	background-position: -462.0000305175781px -606px ;
+	width: 163px;
+	height: 30px;
+}
+
+.analytics-bottom-line{
+	background-position: -655.0000381469727px -607px ;
+	width: 600px;
+	height: 35px;
+}
+
+.customers-bottom-line{
+	background-position: -804px -545px ;
+	width: 600px;
+	height: 35px;
+}
+
+.center-ribbon{
+	background-position: -1228px -26px ;
+	width: 210px;
+	height: 50px;
+}
+
+.right-ribbon{
+	background-position: -1302px -106px ;
+	width: 15px;
+	height: 40px;
+}
+
+.left-ribbon{
+	background-position: -1257px -105px ;
+	width: 15px;
+	height: 40px;
+}
+
+.green-head{
+	background-position: -1119px -149px ;
+	width: 79px;
+	height: 83px;
+}
+
+.green-graph{
+	background-position: -961px -326px ;
+	width: 196px;
+	height: 86px;
+}
+
+.outline{
+	background-position: -1198px -284px ;
+	width: 215px;
+	height: 201px;
+}
+
+.orange-chart{
+	background-position: -1235px -170px ;
+	width: 196px;
+	height: 86px;
+}
+
+.orange-head{
+	background-position: -831px -316px ;
+	width: 79px;
+	height: 83px;
+}
+
+.dyk-next{
+	background-position: -1478.0000915527344px -36px ;
+	width: 22px;
+	height: 50px;
+}
+
+.dyk-back{
+	background-position: -1479.0000915527344px -91px ;
+	width: 22px;
+	height: 50px;
+}
+
+.dyk-background{
+	background-position: -1308.0000305175781px -605.3333740234375px ;
+	width: 560px;
+	height: 140px;
+}
+
+.ad-three{
+	background-position: -1546.0000915527344px -408px ;
+	width: 285px;
+	height: 165px;
+}
+
+.ad-two{
+	background-position: -1546.0000915527344px -210px ;
+	width: 285px;
+	height: 175px;
+}
+
+.ad-one{
+	background-position: -1553.0000915527344px -17px ;
+	width: 285px;
+	height: 165px;
+}
