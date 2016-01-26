@@ -1,17 +1,30 @@
 * {
-  //*border: thin black solid;*//
-  min-height: 40px;
+  //border: 1px #CCCCCC solid;
 }
 
-#menu {
-  background-image:url('menu.png');
-  background-repeat:no-repeat;
-  background-size:100% 100%;
-  height:155px;
-  
+.sprite {
+  display: block;
 }
 
-#header {
+body{
+  font-family: 'PT Sans';
+}
+
+h1{
+  font-size: 32px;
+  color: #2498f4;
+}
+
+
+.stretch {
+  width:100%;
+  background-size: 100% 100%;
+  padding:0px;
+  margin:0px;
+  border:0px;
+}
+
+.header {
   background-image:url('head-bar.png');
   background-repeat:no-repeat;
   background-size:100% 100%;
@@ -20,7 +33,46 @@
   height:45px;
 }
 
+.header-content {
+  float:right;
+  height:44px;
+  color: #ffffff;
+  line-height:45px;
+  padding-right:10px;
+
 }
+
+
+.navigation {
+  height:110px;
+  background-image: url(nav-bar.png);
+  padding-top:19px;
+}
+
+.navigation ul {
+  width:100%;
+  margin:0 auto;
+}
+
+.navigation li {
+  width:16%;
+  margin:0 auto;
+  cursor: pointer;
+}
+
+.navigation li div{
+  margin: 0 auto;
+}
+
+.menu {
+  background-image:url('menu.png');
+  background-repeat:no-repeat;
+  background-size:100% 100%;
+  height:155px;
+
+}
+
+
 
 
 #dashboard {
@@ -33,15 +85,14 @@
   height:77px;
 }
 
-.header-content {
+.search-icon {
   float:right;
-  
 }
+
+
 
 .list-inline {
   display: inline-block;
-  padding-left:346px;
-  padding-top:66px;
 }
 
 
@@ -50,6 +101,91 @@
 .search-icon {
   float:right;
 }
+
+
+form {
+                width:500px;
+                margin:50px auto;
+}
+.search {
+                padding:8px 15px;
+                background:rgba(50, 50, 50, 0.2);
+                border:0px solid #dbdbdb;
+}
+.button {
+                position:relative;
+                padding:6px 15px;
+                left:-8px;
+                border:2px solid #207cca;
+                background-color:#207cca;
+                color:#fafafa;
+}
+.button:hover  {
+                background-color:#fafafa;
+                color:#207cca;
+}
+
+.dashboard{
+  background-color:#33cc66;
+  height:65px;
+  margin: 15px 0px;
+  border-radius: 5px;
+  color: #ffffff;
+  font-size: 36px;
+  line-height:65px;
+}
+
+.searchbar {
+  border-radius:3px;
+  border: #2db55b solid;
+  margin: 15px 0px;
+}
+
+.content{
+  border-left: 1px solid #eeeeee;
+}
+
+.content .row {
+  border-top: 1px solid #eeeeee;
+}
+
+.subcontent{
+  border-right: 1px solid #eeeeee;
+  background:url(smallgrad.png) no-repeat;
+  background-size: 100% 6px;
+}
+
+.announcements {
+  font-size:14px;
+  height: 50px;
+  line-height:50px;
+  padding-top: 19px
+}
+
+.announcements div {
+  padding-left: 15px;
+}
+
+.an-button-left {
+  float: left;
+}
+
+.an-button-right {
+  float: right;
+}
+
+.orange{
+  color: #fe7f13;
+}
+
+.gray {
+  color: #777777;
+}
+
+.orange, .gray{
+  border-right:1px solid #eeeeee;
+}
+
 
 
 

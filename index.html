@@ -10,143 +10,115 @@
 
 <body>
 
- <!--menu-->
-  <div class="container-fluid stretch" id="menu">
-  <div class="row">
-    <div class="container">
-      <li style="border-right: 1px solid #aaa"> </li>
-      <div class="header-content icon-settings"></div>
-    <div class="header-content icon-help"></div>
-    <div class="header-content"><a href="#">MINI of Raleigh</a></div>
-    </div>
+ <!--header-->
+ <div class="container-fluid stretch">
+   <div class="row header stretch">
+     <div class="container">
+       <div class="header-content icon-settings"> </div>
+       <div class="header-content icon-help"> </div>
+       <div class="header-content"> MINI of Raleigh</div>
      </div>
-    
-    <div class="row navigation stretch">
-      <div class="container">
-        <div class="row">
-    <div class="col-xs-2"></div>
-    <div class="col-xs-8">
-      <div class="row">
-        <ul class="list-inline">
-        <li><div class="blue-icon-dashboard"></div></li>
-        <li><div class="blue-icon-customers"></div></li>
-        <li><div class="blue-icon-messages"></div></li>
-        <li><div class="blue-icon-promotions"></div></li>
-        <li><div class="blue-icon-page-creator"></div></li>
-        <li><div class="blue-icon-analytics"></div></li>
-        </ul>
-      </div>
-      <div class="row">
-        <ul class="list-inline">
-          <li><div class="icon-shadow"></div></li>
-          <li><div class="icon-shadow"></div></li>
-          <li><div class="icon-shadow"></div></li>
-          <li><div class="icon-shadow"></div></li>
-          <li><div class="icon-shadow"></div></li>
-          <li><div class="icon-shadow"></div></li>
-        </ul>
-      </div>
-    </div>
-     <div class="col-xs-2"></div>
-  </div>
+   </div>
+   <!--end header-content-->
+
+
+   <div class="row navigation stretch">
+     <div class="container">
+       <div class="row nav-bar stretch">
+         <div class="col-xs-2">
          </div>
-      </div>
-    </div>
-  
-  
+         <div class="col-xs-8">
+             <ul class="list-inline">
+               <li><div class="blue-icon-dashboard"></div></li>
+               <li><div class="blue-icon-customers"></div></li>
+               <li><div class="blue-icon-messages"></div></li>
+               <li><div class="blue-icon-promotions"></div></li>
+               <li><div class="blue-icon-page-creator"></div></li>
+               <li><div class="blue-icon-analytics"></div></li>
+             </ul>
 
-  
-  <!--dashboard
+           <div class="row">
+             <ul class="list-inline">
+               <li> <div class="sprite icon-shadow"></div> </li>
+               <li> <div class="sprite icon-shadow"></div> </li>
+               <li> <div class="sprite icon-shadow"></div> </li>
+               <li> <div class="sprite icon-shadow"></div> </li>
+               <li> <div class="sprite icon-shadow"></div> </li>
+               <li> <div class="sprite icon-shadow"></div> </li>
+           </ul>
+           </div>
+         </div>
+         <div class="col-xs-2">
+         </div>
+       </div>
+     </div>
+   </div>
+ </div> <!--end of header div-->
+
+ <!--body starts here-->
    <div class="container">
-    <div class="row" id="dashboard">
-      <div class="col-xs-9">
-      
-        Dashboard
-      </div>
-      <div class="col-xs-3">
-        <div class="search-bar">
-          <div class="search-icon"></div>
-        </div>
-      </div>
-    </div>
-    <div class="row"> -->
-      <div class="col-xs-12">
-            </div>
-    </div>
-
-
-       <!--Announcements
-        <div class="row">
-          <div class="col-xs-2">
-            Announcements
-          </div>
-          <div class="col-xs-9">
-            Sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus sagittis lacus
-          </div>
-          <div class="col-xs-1">
-            arrows
-          </div>
-        </div> -->
-        
-         <!--Tasks
-        <div class="row">
-          <div class="col-xs-4">
-            Tasks
-          </div> -->
-          
-           <!--Analytics
-          <div class="col-xs-8">
-            Analytics
-          </div>
-        </div>  <!--this div goes with the row starting with tasks-->
- 
-        
-         <!--promos
-        <div class="row">
-          <div class="col-xs-4">
-            pic1
-          </div>
-          <div class="col-xs-4">
-            pic2
-          </div>
-          <div class="col-xs-4">
-            pic3
-          </div>
-        </div>
-          -->
-
-
-      </div>  <!--content div-->
-
- 
-  
-
+     <div class="row dashboard"> <!--dashboard-->
+       <div class="col-xs-9">
+         Dashboard
+       </div>
+       <div class="col-xs-3 search-bar">
+         <form>
+          <input type="text" placeholder="Search..." required>
+          <input type="button" value="Search">
+        </form>
+         <div class="search-icon"></div>
+     </div>
+     <div class="row content"><!--content-->
+       <div class="col-xs-12">
+         <div class="row announcements"> <!--announcements starts here-->
+           <div class="col-xs-2 orange">
+             ANNOUNCEMENTS
+           </div>
+           <div class="col-xs-9 gray">
+             Sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus sagittis lacus
+           </div>
+           <div class="col-xs-1">
+             <div class="an-button-left"></div>
+             <div class="an-button-right"></div>
+         </div>
+         <div class="row"> <!--tasks,recs,analytics start here-->
+           <div class="col-xs-4 subcontent">
+             <div><h1>Tasks</h1></div>
+             <div><h1>Recommendations</h1></div>
+           </div>
+           <div class="col-xs-8 subcontent">
+             <h1>Analytics</h1>
+           </div>
+         </div>
+         <div class="row">
+           <div class="col-xs-4">
+             ad 1
+           </div>
+           <div class="col-xs-4">
+             ad 2
+           </div>
+           <div class="col-xs-4">
+             ad 3
+           </div>
+         </div>
+       </div>
+     </div>
+   </div>
+   <div class="container-fluid"> <!--footer starts here-->
+     <div class="container">
+       <div class="row">
+         <div class="col-xs-2">
+           "tutorials / support / blog"
+         </div>
+         <div class="col-xs-8">
+           "ariel winter likes that"
+         </div>
+         <div class="col-xs-2">
+           social
+         </div>
+       </div>
+     </div>
+   </div>
 </body>
 
-<footer>
-   <!--Footer starts here
-  <div class="container-fluid">
-    <div class="row" id=footer>
-      <div class="container">
-        <div class="row">
-          <div class="col-xs-3">
-            tutorials, support, blog
-          </div>
-          <div class="col-xs-7">
-            <div class="footer-updates"></div>
-          </div>
-          <div class="col-xs-1">
-            <div class="footer-logout"></div>
-          </div>
-          <div class="col-xs-1">
-            <div class="footer-social"></div>
-          </div>
-        </div>
-      </div>
-      
-
-    </div>
-  </div>
-  -->
-</footer>
 </html>
