@@ -1,5 +1,5 @@
 * {
-  //border: 1px #CCCCCC solid;
+  border: 1px #CCCCCC solid;
 }
 
 .sprite {
@@ -15,6 +15,11 @@ h1{
   color: #2498f4;
 }
 
+b{
+  font-size: 32px;
+  font-weight: normal;
+  color: #2498f4;
+}
 
 .stretch {
   width:100%;
@@ -22,6 +27,30 @@ h1{
   padding:0px;
   margin:0px;
   border:0px;
+}
+
+.nopadding {
+  padding:0px;
+}
+
+//colors//
+
+.white {
+  background-color: #ffffff;
+  padding:40px;
+  border: 1px #e5e5e5 solid;
+}
+
+.orange{
+  color: #fe7f13;
+}
+
+.gray {
+  color: #777777;
+}
+
+.orange, .gray{
+  border-right:1px solid #eeeeee;
 }
 
 .header {
@@ -39,9 +68,10 @@ h1{
   color: #ffffff;
   line-height:45px;
   padding-right:10px;
+  padding-top:0;
+  font-size: 10px;
 
 }
-
 
 .navigation {
   height:110px;
@@ -62,6 +92,37 @@ h1{
 
 .navigation li div{
   margin: 0 auto;
+}
+
+
+.blue-icon-dashboard:hover {
+    background: url('green-icon-dash.png') no-repeat;
+    background-position: top left;
+  }
+
+.blue-icon-customers:hover {
+    background: url('green-icon-customers.png'); no-repeat;
+        background-position: top left;
+}
+
+.blue-icon-messages:hover {
+    background: url('green-icon-messages.png');no-repeat;
+        background-position: top left;
+}
+
+.blue-icon-promotions:hover {
+    background: url('green-icon-promotions.png');no-repeat;
+        background-position: top left;
+}
+
+.blue-icon-page-creator:hover {
+    background: url('green-icon-page-creator.png');no-repeat;
+        background-position: top left;
+}
+
+.blue-icon-analytics:hover {
+    background: url('green-icon-analytics.png');no-repeat;
+        background-position: top left;
 }
 
 #dashboard {
@@ -85,13 +146,6 @@ h1{
 }
 
 
-
-
-.search-icon {
-  float:right;
-}
-
-
 .dashboard{
   background-color:#33cc66;
   height:65px;
@@ -102,24 +156,28 @@ h1{
   line-height:65px;
 }
 
-.searchbar {
+.search-bar {
+  background-image:url('search-tool.png');
   border-radius:3px;
   border: #2db55b solid;
   margin: 15px 0px;
 }
 
-.content{
-  border-left: 1px solid #eeeeee;
+.search-icon {
+  float:right;
+  border-radius:3px;
+  border: #2db55b solid;
+  margin: 15px 0px;
 }
 
-.content .row {
-  border-top: 1px solid #eeeeee;
+
+.search {
+  padding-bottom: 40px;
 }
 
-.subcontent{
-  border-right: 1px solid #eeeeee;
-  background-img: url(gradient.png); no-repeat;
-  background-size: 100%;
+form {
+  display:block;
+  float:left;
 }
 
 .announcements {
@@ -127,6 +185,12 @@ h1{
   height: 50px;
   line-height:50px;
   padding-top: 19px
+}
+
+.subcontent{
+  border-right: 1px solid #eeeeee;
+  background-img: url(gradient.png); no-repeat;
+  background-size: 100%;
 }
 
 .announcements div {
@@ -145,35 +209,51 @@ h1{
   float:left;
 }
 
-.tasks {
 
+.gradient {
+  background:url(gradient.png) no-repeat;
+  background-size: 100% 6px;
 }
 
-.orange{
-  color: #fe7f13;
-}
-
-.gray {
-  color: #777777;
-}
-
-.orange, .gray{
-  border-right:1px solid #eeeeee;
-}
-
-.a {
-  cursor: pointer;
-
+.tasks-settings-icon {
+  float: right;
 }
 
 
-
-//*
-
-#footer{
-  background-image:url('footer-bar.png');
-  background-repeat:no-repeat;
-  background-size:100% 100%;
+.form-control {
+  width:220px;
+  height:29px;
+  border:none;
+  background-color:#f4f4f4;
 }
 
-*//
+//pulldown code from http://bavotasan.com/2011/style-select-box-using-only-css/ //
+
+.styled-select {
+  float:right;
+   width: 240px;
+   height: 34px;
+   overflow: hidden;
+   background: url(pulldown-arrow.png); no-repeat right #ddd;
+   border: 1px solid #ccc;
+   }
+
+   .styled-select select {
+      background: transparent;
+      width: 268px;
+      padding: 5px;
+      font-size: 16px;
+      line-height: 1;
+      border: 0;
+      border-radius: 0;
+      height: 34px;
+      -webkit-appearance: none;
+      }
+
+.barchart {
+padding-left:15px;
+}
+
+.piechart {
+  float:right;
+}

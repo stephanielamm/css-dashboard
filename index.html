@@ -25,9 +25,10 @@
    <div class="row navigation stretch">
      <div class="container">
        <div class="row nav-bar stretch">
-         <div class="col-xs-2">
+         <div class="col-md-2">
          </div>
-         <div class="col-xs-8">
+         <div class="col-xs-12 col-xs-8">
+           <div class="row">
              <ul class="list-inline">
                <li><div class="blue-icon-dashboard"></div></li>
                <li><div class="blue-icon-customers"></div></li>
@@ -36,6 +37,7 @@
                <li><div class="blue-icon-page-creator"></div></li>
                <li><div class="blue-icon-analytics"></div></li>
              </ul>
+           </div>
 
            <div class="row">
              <ul class="list-inline">
@@ -48,7 +50,7 @@
            </ul>
            </div>
          </div>
-         <div class="col-xs-2">
+         <div class="col-md-2">
          </div>
        </div>
      </div>
@@ -62,63 +64,206 @@
          Dashboard
        </div>
        <div class="col-xs-3 search-bar">
+         <input type="text" class="form-control">
+        <div class="search-icon"></div>
      </div>
-     <!--CONTENT-->
-     <div class="row content"><!--content-->
-       <div class="col-xs-12">
 
-         <div class="row announcements"> <!--announcements row starts here-->
+
+<!--CONTENT-->
+     <div class="row content">
+       <div class="col-xs-12 white">
+         <div class="row announcements"> <!--ANNOUNCEMENTS-->
            <div class="col-xs-2 orange">
              ANNOUNCEMENTS
            </div>
-           <div class="col-xs-9 gray"> <!--announcements text-->
-             Sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus sagittis lacus
+            <div class="col-xs-9 gray"> <!--announcements text-->
+              Sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus sagittis lacus
+            </div>
+            <div class="col-xs-1"> <!--announcements buttons-->
+              <div class="an-button-left"><a href="#"></a></div>
+              <div class="an-button-right"></div>
+          </div>
+
+<!-- TASKS & ANALYTICS -->
+         <div class="row nopadding">
+           <div class="col-xs-4 subcontent nopadding"> <!--this is the tasks column-->
+             <div class="box">
+               <b>Tasks</b>
+               <div class="taskssettings"></div>
+
+               <div class ="row nopadding">
+                 <div class="col-xs-2">
+                   (1)
+                 </div>
+                 <div class="col-xs-7">
+                   dkjd
+                 </div>
+                 <div class="col-xs-3">
+                   dkjd
+                 </div>
+               </div>
+               <div class ="row nopadding">
+                 <div class="col-xs-2">
+                   (2)
+                 </div>
+                 <div class="col-xs-7">
+                   dkjd
+                 </div>
+                 <div class="col-xs-3">
+                   dkjd
+                 </div>
+               </div>
+               <div class ="row nopadding">
+                 <div class="col-xs-2">
+                   (3)
+                 </div>
+                 <div class="col-xs-7">
+                   dkjd
+                 </div>
+                 <div class="col-xs-3">
+                   dkjd
+                 </div>
+               </div>
+               <div class ="row nopadding">
+                 <div class="col-xs-2">
+                   (4)
+                 </div>
+                 <div class="col-xs-7">
+                   dkjd
+                 </div>
+                 <div class="col-xs-3">
+                   dkjd
+                 </div>
+               </div>
+               <div class ="row nopadding">
+                 <div class="col-xs-2">
+                   (5)
+                 </div>
+                 <div class="col-xs-7">
+                   dkjd
+                 </div>
+                 <div class="col-xs-3">
+                   dkjd
+                 </div>
+               </div>
+
+
+             </div>
+             <div class="box">
+               <b>Recommendations</b>
+               </div>
+
+               <div class ="row nopadding">
+                 <div class="col-xs-2">
+                   [a]
+                 </div>
+                 <div class="col-xs-7">
+                   dkjd
+                 </div>
+                 <div class="col-xs-3">
+                   dkjd
+                 </div>
+               </div>
+               <div class ="row nopadding">
+                 <div class="col-xs-2">
+                   [B]
+                 </div>
+                 <div class="col-xs-7">
+                   dkjd
+                 </div>
+                 <div class="col-xs-3">
+                   dkjd
+                 </div>
+               </div>
+               <div class ="row nopadding">
+                 <div class="col-xs-2">
+                   [C]
+                 </div>
+                 <div class="col-xs-7">
+                   dkjd
+                 </div>
+                 <div class="col-xs-3">
+                   dkjd
+                 </div>
+               </div>
+               <div class ="row nopadding">
+                 <div class="col-xs-2">
+                   [D]
+                 </div>
+                 <div class="col-xs-7">
+                   dkjd
+                 </div>
+                 <div class="col-xs-3">
+                   dkjd
+                 </div>
+               </div>
+               <div class ="row nopadding">
+                 <div class="col-xs-2">
+                   [E]
+                 </div>
+                 <div class="col-xs-7">
+                   dkjd
+                 </div>
+                 <div class="col-xs-3">
+                   dkjd
+                 </div>
+               </div>
            </div>
-           <div class="col-xs-1"> <!--announcements buttons-->
-             <div class="an-button-left"><a href="#"></a></div>
-             <div class="an-button-right"></div>
+
+           <!--ANALYTICS STARTS HERE-->
+           <div class="col-xs-8 subcontent nopadding">
+             <div class="box">
+               <b>Analytics</b>
+             </div>
+
+             <div class ="row nopadding"> <!--row with ACTIVITY, pulldown, Channels-->
+                <div class="col-xs-4">
+                  ACTIVITY <!--Activity title goes in here styled grey-->
+                </div>
+                <div class="col-xs-4"> <!--//pulldown code from http://bavotasan.com/2011/style-select-box-using-only-css/ //-->
+                  <div class="styled-select">
+                  <select>
+                      <option>10/22/13 - 1/22/14</option>
+                        <option>1/23/14 - 4/23/14</option>
+                  </select>
+                </div>
+               </div>
+             </div>
+
+
+             <div class="row nopadding"> <!--charts row-->
+               <div class="col-sm-6 barchart"><img src="css/bargraph.png"></div>
+               <div class="col-xs-2 piechart stretch">
+               </div>
+             </div>
+
+<!--will need to add dyk section-->
+
+
+
+           </div>
          </div>
 
 
-         <div class="row"> <!--tasks,recs,analytics start here-->
-           <div class="col-xs-4 sidebar-left"> <!--tasks/recs sidebar-->
-             <div id="tasks">
-             <h1>Tasks
-             <a href="#">
-               <span style="margin-left: 8px;">
-
-               </span>
-             </a></h1>
-             <li><h2>
-             <span id="welcome-contacts">
-               <div class="grey-one">Welcome Content</div></h2>
-             </span></li>
-
-              </div>
-
-             <div><h1>Recommendations</h1></div>
-           </div>
-           <div class="col-xs-8 subcontent">
-             <h1>Analytics</h1>
-           </div>
-         </div> <!--end tasks/recs sidebar-->
 
 
-         <div class="row">
+         <div class="row"> <!--this is the ads row-->
            <div class="col-xs-4">
-             ad 1
+             <div class="ad-one"></div>
            </div>
            <div class="col-xs-4">
-             ad 2
+             <div class="ad-two"></div>
            </div>
            <div class="col-xs-4">
-             ad 3
+             <div class="ad-three"></div>
            </div>
          </div>
        </div>
      </div>
    </div>
-   <div class="container-fluid"> <!--footer starts here-->
+
+   <!--this is where the footer starts-->
+   <div class="container-fluid">
      <div class="container">
        <div class="row">
          <div class="col-xs-2">
