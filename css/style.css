@@ -1,5 +1,5 @@
 * {
-  //border: 1px #CCCCCC solid;
+  border: 1px #CCCCCC solid;
 }
 
 .sprite {
@@ -156,6 +156,7 @@ b{
   border-radius: 5px;
   font-size: 36px;
   line-height:65px;
+  color:white;
 }
 
 .search-bar {
@@ -193,40 +194,47 @@ form {
 
 .announcements {
   font-size:14px;
-  height: 50px;
-  line-height:50px;
-  padding-top: 19px
+  height: 40px;
+  line-height:60px;
+}
+
+.content{
+  //border-left: 1px solid #eeeeee;
+  padding: 15px;
+  background: url(gradient.png) no-repeat;
+  background-size: 100% 249px;
+  margin: 0px 5px;
 }
 
 .subcontent{
   border-right: 1px solid #eeeeee;
-  background-img: url(gradient.png); no-repeat;
   background-size: 100%;
+  padding-left: 25px;
+  padding-top: 20px;
 }
 
 .announcements div {
-  padding-left: 15px;
+  border-bottom: 1px solid #ddd;
+  height: 51px;
 }
 
-.an-button-left {
+.button-left {
+  padding-left: 0px;
   float: left;
   cursor: pointer;
+  margin: 0px;
 }
 
-.an-button-right {
+.button-right {
   float: right;
   cursor: pointer;
+    margin: 0px;
 }
 
 .sidebar-left {
   float:left;
 }
 
-
-.gradient {
-  background:url(gradient.png) no-repeat;
-  background-size: 100% 6px;
-}
 
 .tasks-settings-icon {
   float: right;
@@ -267,10 +275,46 @@ form {
       }
 
 .blue-head {
+  background-image: url('customer-count-line.png');
+  background-size: contain;
   cursor: pointer;
 }
 
 
 .piechart {
   float:right;
+}
+
+.analytics {
+  padding-left: 40px;
+}
+
+.border-bottom {
+  border-bottom: 1px solid #ddd;
+}
+
+.imgstretch{
+  width:100%;
+  height:auto;
+  padding:10px 20px 0px;
+}
+
+.bleft{
+  background: url(leftborder.png) no-repeat left;
+  background-size: 35px 100%;
+  border-left: 1px solid #ededed;
+}
+
+.task-settings span {
+  font-size: 21px;
+  font-weight: normal;
+  font-style: normal;
+}
+.tasks-settings-icon {
+  padding-right: 40px;
+}
+
+.social-buttons {
+  margin-left: 140px;
+  margin-top: 30px;
 }
