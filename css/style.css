@@ -6,6 +6,18 @@
   display: block;
 }
 
+
+#dashboard {
+  background-image:url('nav-bar.png');
+  background-repeat:no-repeat;
+  background-size:100% 100%;
+  font-size: 18px;
+  color: white;
+  margin:14px;
+  height:77px;
+}
+
+
 body{
   font-family: 'PT Sans';
 }
@@ -125,15 +137,6 @@ b{
         background-position: top left;
 }
 
-#dashboard {
-  background-image:url('nav-bar.png');
-  background-repeat:no-repeat;
-  background-size:100% 100%;
-  color: white;
-  font-size: 18px;
-  margin:14px;
-  height:77px;
-}
 
 .search-icon {
   float:right;
@@ -151,7 +154,6 @@ b{
   height:65px;
   margin: 15px 0px;
   border-radius: 5px;
-  color: #ffffff;
   font-size: 36px;
   line-height:65px;
 }
@@ -161,15 +163,24 @@ b{
   border-radius:3px;
   border: #2db55b solid;
   margin: 15px 0px;
+  height: 23px;
+  padding: 0px;
+  float: right;
+  padding-right: 15px;
+
 }
 
 .search-icon {
   float:right;
   border-radius:3px;
-  border: #2db55b solid;
-  margin: 15px 0px;
+  margin-top: 4px;
+  cursor: pointer;
+
 }
 
+.white{
+  background-color: white;
+}
 
 .search {
   padding-bottom: 40px;
@@ -199,10 +210,12 @@ form {
 
 .an-button-left {
   float: left;
+  cursor: pointer;
 }
 
 .an-button-right {
   float: right;
+  cursor: pointer;
 }
 
 .sidebar-left {
@@ -221,18 +234,18 @@ form {
 
 
 .form-control {
-  width:220px;
+  width:200px;
   height:29px;
   border:none;
-  background-color:#f4f4f4;
+  background-color:white;
 }
 
 //pulldown code from http://bavotasan.com/2011/style-select-box-using-only-css/ //
 
 .styled-select {
   float:right;
-   width: 240px;
-   height: 34px;
+   width: 162px;
+   height: 32px;
    overflow: hidden;
    background: url(pulldown-arrow.png); no-repeat right #ddd;
    border: 1px solid #ccc;
@@ -240,19 +253,20 @@ form {
 
    .styled-select select {
       background: transparent;
-      width: 268px;
+      width: 162px;
       padding: 5px;
       font-size: 16px;
       line-height: 1;
       border: 0;
       border-radius: 0;
-      height: 34px;
+      height: 32px;
+      cursor: pointer;
       -webkit-appearance: none;
       }
-
-.barchart {
-padding-left:15px;
+.blue-head {
+  cursor: pointer;
 }
+
 
 .piechart {
   float:right;
