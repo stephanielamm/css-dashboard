@@ -1,5 +1,5 @@
 * {
-  border: 1px #CCCCCC solid;
+  //border: 1px #CCCCCC solid;
 }
 
 .sprite {
@@ -240,15 +240,17 @@ form {
   background-color:white;
 }
 
-//pulldown code from http://bavotasan.com/2011/style-select-box-using-only-css/ //
-
+/*pulldown code from http://bavotasan.com/2011/style-select-box-using-only-css/ //
+*/
 .styled-select {
-  float:right;
-   width: 162px;
-   height: 32px;
+   float:right;
+   width: 180px;
+   height: 30px;
    overflow: hidden;
-   background: url(pulldown-arrow.png); no-repeat right #ddd;
+   background: url(pulldown-arrow.png) no-repeat;
+   background-position: right 5px center;
    border: 1px solid #ccc;
+   line-height: 30px;
    }
 
    .styled-select select {
@@ -259,10 +261,11 @@ form {
       line-height: 1;
       border: 0;
       border-radius: 0;
-      height: 32px;
+      //height: 32px;
       cursor: pointer;
       -webkit-appearance: none;
       }
+
 .blue-head {
   cursor: pointer;
 }
