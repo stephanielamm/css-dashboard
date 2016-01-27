@@ -317,4 +317,15 @@ form {
 .social-buttons {
   margin-left: 140px;
   margin-top: 30px;
+  cursor: pointer;
+}
+
+.green-circle {
+   background-image: url('grey-circle.png');no-repeat;
+}
+
+.green-circle:hover {
+  opacity:0;
+  background-image: url('grey-circle.png');no-repeat;
+  display:block;
 }
