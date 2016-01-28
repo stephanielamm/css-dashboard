@@ -58,6 +58,7 @@ b{
   padding:0px;
 }
 
+
 //colors//
 
 .white {
@@ -800,7 +801,7 @@ input[type="checkbox"]:checked + label span {
 /*footer*/
 
 
-.fsection{
+.footer-row{
   display:inline;
   float:left;
   border-right: thin;
@@ -820,21 +821,21 @@ input[type="checkbox"]:checked + label span {
   color: #999999;
 }
 
-.fsection span{
+.footer-row span{
   border-right: thin solid #dddddd;
   padding:0px 10px;
 }
 
-.fsection a:hover{
+.footer-row a:hover{
   text-decoration:none;
   color: #2498f2;
 }
 
-.fsection a:active{
+.footer-row a:active{
   color:#33cc66;
 }
 
-#fright{
+#footer-right{
   text-align:right;
 }
 
@@ -845,11 +846,11 @@ input[type="checkbox"]:checked + label span {
 }
 
 
-.fright{
+.footer-right{
   float:right;
 }
 
-a .socialsprite {
+a .social-icon-sprites {
   display: inline;
   float: left;
   margin-right: 5px;
@@ -867,20 +868,19 @@ a .socialsprite {
 }
 
 #FB:hover{
-  background-position: -40px -21px ;
+  background-position: -13.999969482421875px 0;
 }
 
 #FS:hover{
-  background-position: 0 -22px ;
+  background-position: -108px -4px ;
 }
 
 #TW:hover{
-  background-position: -19px 0;
+  background-position: -64px -3px ;
 }
 
 #YT:hover{
-  background-position: -60px 0;
-}
+  background-position: -147px -1px ;}
 
 @media (max-width: 992px){
   .mobile-dissapear{

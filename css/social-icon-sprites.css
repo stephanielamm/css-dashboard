@@ -1,0 +1,51 @@
+.yt-color, .fs-color, .tw-color, .fb-color, .yt-bw, .fs-bw, .tw-bw, .fb-bw{
+	background: url(social-icon-sprites.png) no-repeat;
+}
+
+.yt-color{
+	background-position: -147px -1px ;
+	width: 16px;
+	height: 16px;
+}
+
+.fs-color{
+	background-position: -108px -4px ;
+	width: 16px;
+	height: 16px;
+}
+
+.tw-color{
+	background-position: -64px -3px ;
+	width: 16px;
+	height: 16px;
+}
+
+.fb-color{
+	background-position: -13.999969482421875px 0;
+	width: 16px;
+	height: 16px;
+}
+
+.yt-bw{
+	background-position: -151px -40px ;
+	width: 16px;
+	height: 16px;
+}
+
+.fs-bw{
+	background-position: -102px -36px ;
+	width: 16px;
+	height: 16px;
+}
+
+.tw-bw{
+	background-position: -58px -32px ;
+	width: 16px;
+	height: 16px;
+}
+
+.fb-bw{
+	background-position: 0 -37px ;
+	width: 16px;
+	height: 16px;
+}
