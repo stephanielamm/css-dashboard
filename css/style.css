@@ -289,17 +289,24 @@ form {
 
 .activity-text {
   color: grey;
-  font-size: 80%;
+  font-size: 90%;
   padding-top:15px;
   padding-left:35px;
 }
 
 .pie-text {
-      color: grey;
-      margin-bottom: 5%;
-      font-size: 80%;
-      margin-top: -10%;
-      display: inline-block;
+    color: grey;
+    margin-bottom: 5%;
+    font-size: 90%;
+    margin-top: 0;
+    display: inline-block;
+    margin-left: 20%;
+}
+
+.put-padding-here {
+  width: 80%;
+  height: auto;
+  padding: 10px 20px 8px;
 }
 
 .social-buttons {
@@ -340,7 +347,7 @@ form {
 }
 
 .bleft{
-  background: url(div-line.png) no-repeat left;
+  margin-top: 45px;
   background-size: 35px 100%;
   border-left: 1px solid #ededed;
 }
