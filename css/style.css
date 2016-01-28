@@ -381,6 +381,8 @@ form {
   background-image: url('customer-count-line.png');
   background-size: contain;
   cursor: pointer;
+  margin: 3px;
+  float:left;
 }
 
 .green-circle {
@@ -411,13 +413,9 @@ form {
   margin-bottom: 5px;
 }
 
-.blue-head{
-  margin-top: 3px;
-}
 
 .avi-box {
   font-size: 15px;
-  line-height: 10px;
   border: 1px solid #dddddd;
   border-radius: 3px;
   position: relative;
