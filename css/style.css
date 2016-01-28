@@ -562,6 +562,10 @@ form {
   display: inline;
 }
 
+.checkbox {
+  visibility:hidden;
+}
+
 .checkwrap{
   width:24px;
   height:24px;
