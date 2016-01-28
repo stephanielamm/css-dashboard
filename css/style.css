@@ -288,6 +288,11 @@ form {
     margin: 0px;
 }
 
+
+.right-container{
+  border-left: 1px solid #ededed;
+}
+
 /*dropdown form*/
 
 .form-control {
@@ -459,9 +464,8 @@ form {
   float:right;
 }
 
-.analytics {
-  /*padding-left: 40px;*/
-  padding-left:0px
+#analytics {
+  padding: 15px 25px;
 }
 
 .activity-text {
