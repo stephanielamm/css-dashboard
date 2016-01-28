@@ -151,6 +151,13 @@ b{
   margin: 0 auto;
 }
 
+.marker-pointer{
+  text-align:center;
+}
+
+.marker-pointer img{
+  margin-top:-20px;
+}
 
 .green-icon-dash:hover {
     background: url('blue-icon-dashboard.png') no-repeat;
