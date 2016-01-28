@@ -50,6 +50,7 @@ b{
   border:0px;
 }
 
+
 .nopadding {
   padding:0px;
 }
@@ -282,11 +283,23 @@ form {
 }
 
 .analytics {
-  padding-left: 40px;
+  /*padding-left: 40px;*/
+  padding-left:0px
 }
 
-.activity {
-  color: #ddd
+.activity-text {
+  color: grey;
+  font-size: 80%;
+  padding-top:15px;
+  padding-left:35px;
+}
+
+.pie-text {
+      color: grey;
+      margin-bottom: 5%;
+      font-size: 80%;
+      margin-top: -10%;
+      display: inline-block;
 }
 
 .social-buttons {
@@ -431,7 +444,7 @@ form {
 }
 
 #row1:hover #avi1 {
-  background-position: -764px 0;
+	background-position: -814px -15px ;
 }
 
 #row2:hover #circle2 {
@@ -439,7 +452,7 @@ form {
 }
 
 #row2:hover #avi2 {
-  background-position: -764px 0;
+	background-position: -814px -15px ;
 }
 
 #row3:hover #circle3 {
@@ -447,7 +460,7 @@ form {
 }
 
 #row3:hover #avi3 {
-  background-position: -764px 0;
+	background-position: -814px -15px ;
 }
 
 #row4:hover #circle4 {
@@ -455,7 +468,7 @@ form {
 }
 
 #row4:hover #avi4 {
-  background-position: -764px 0;
+	background-position: -814px -15px ;
 }
 
 
