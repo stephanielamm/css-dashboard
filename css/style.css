@@ -346,12 +346,13 @@ form {
   padding: 10px 20px 0px;
 }
 
-.bleft{
-  margin-top: 45px;
-  background-size: 35px 100%;
-  border-left: 1px solid #ededed;
+.bleft {
+    margin-top: 45px;
+    background-size: 35px 100%;
+    border-left: 1px solid #ededed;
+    padding-right: 0px;
+    float: right;
 }
-
 /*tasks*/
 
 .left{
@@ -375,9 +376,10 @@ form {
   vertical-align: middle;
 }
 
-.sidebar-style .row{
-  margin-top: 5px;
+.sidebar-style .row {
+    margin-top: 15px;
 }
+
 .sidebar-style .row:hover{
   color: #dddddd;
 }
@@ -398,11 +400,12 @@ form {
 
 
 .blue-head {
-  background-image: url('customer-count-line.png');
-  background-size: contain;
-  cursor: pointer;
-  margin: 3px;
-  float:left;
+    background-image: url('customer-count-line.png');
+    background-size: contain;
+    cursor: pointer;
+    float: left;
+    margin-right: 8px;
+    margin-left:3px;
 }
 
 .green-circle {
@@ -418,7 +421,6 @@ form {
 .border-bottom {
   border-bottom: 1px solid #ddd;
   margin-right:0;
-  margin-left:0;
 }
 
 .circle{
@@ -440,6 +442,7 @@ form {
   border-radius: 3px;
   position: relative;
   padding: 3px;
+  margin-bottom: 8px;
   vertical-align: top;
   width: auto;
   display:block;
