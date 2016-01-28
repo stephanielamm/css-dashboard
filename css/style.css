@@ -152,35 +152,47 @@ b{
 }
 
 
-.blue-icon-dashboard:hover {
-    background: url('green-icon-dash.png') no-repeat;
+.green-icon-dash:hover {
+    background: url('blue-icon-dashboard.png') no-repeat;
     background-position: top left;
   }
 
-.blue-icon-customers:hover {
-    background: url('green-icon-customers.png'); no-repeat;
+.green-icon-customers:hover {
+    background: url('blue-icon-customers.png'); no-repeat;
         background-position: top left;
 }
 
-.blue-icon-messages:hover {
-    background: url('green-icon-messages.png');no-repeat;
+.green-icon-messages:hover {
+    background: url('blue-icon-messages.png');no-repeat;
         background-position: top left;
 }
 
-.blue-icon-promotions:hover {
-    background: url('green-icon-promotions.png');no-repeat;
+.green-icon-promotions:hover {
+    background: url('blue-icon-promotions.png');no-repeat;
         background-position: top left;
 }
 
-.blue-icon-page-creator:hover {
-    background: url('green-icon-page-creator.png');no-repeat;
+.green-icon-page-creator:hover {
+    background: url('blue-icon-page-creator.png');no-repeat;
         background-position: top left;
 }
 
-.blue-icon-analytics:hover {
-    background: url('green-icon-analytics.png');no-repeat;
+.green-icon-analytics:hover {
+    background: url('blue-icon-analytics.png');no-repeat;
         background-position: top left;
 }
+
+
+
+.marker{
+  text-align:center;
+}
+
+.marker img{
+  margin-top:-14px;
+}
+
+
 
 
 .search-icon {
@@ -309,6 +321,136 @@ form {
       //height: 32px;
       cursor: pointer;
       -webkit-appearance: none;
+      }
+
+
+
+      /*tasks*/
+
+      .left{
+        background: url(leftborder.png) no-repeat left;
+        background-size: 35px 100%;
+        border-left: 1px solid #ededed;
+      }
+
+      .sidebar-left {
+        float:left;
+      }
+
+      .sidebar-style {
+        font-size: 18px;
+        color: #2498f4;
+        font-weight: normal;
+        cursor: pointer;
+      }
+
+      .sidebar-style div{
+        vertical-align: middle;
+      }
+
+      .sidebar-style .row {
+          margin-top: 15px;
+      }
+
+      .sidebar-style .row:hover{
+        color: #dddddd;
+      }
+
+      .tasks-settings-icon {
+        float: right;
+      }
+
+      .task-settings span {
+        font-size: 21px;
+        font-weight: normal;
+        font-style: normal;
+      }
+
+      .tasks-settings-icon {
+        padding-right: 40px;
+      }
+
+
+      .blue-head {
+          background-image: url('customer-count-line.png');
+          background-size: contain;
+          cursor: pointer;
+          float: left;
+          margin-right: 8px;
+          margin-left:3px;
+      }
+
+      .green-circle {
+         background-image: url('grey-circle.png');no-repeat;
+      }
+
+      .green-circle:hover {
+        opacity:0;
+        background-image: url('grey-circle.png');no-repeat;
+        display:block;
+      }
+
+      .border-bottom {
+        border-bottom: 1px solid #ddd;
+        margin-right:0;
+      }
+
+      .circle{
+        width:24px;
+        height:24px;
+        border-radius: 50%;
+        background-color: #32cc66;
+        text-align: center;
+        vertical-align: middle;
+        color: #ffffff;
+        font-size: 18px;
+        margin-bottom: 5px;
+      }
+
+
+      .avi-box {
+        font-size: 15px;
+        border: 1px solid #dddddd;
+        border-radius: 3px;
+        position: relative;
+        padding: 3px;
+        margin-bottom: 8px;
+        vertical-align: top;
+        width: auto;
+        display:block;
+      }
+
+
+      #row1:hover #circle1 {
+        background-color: #dddddd;
+      }
+
+      #row1:hover #avi1 {
+      	background-position: -814px -15px ;
+      }
+
+      #row2:hover #circle2 {
+        background-color: #dddddd;
+      }
+
+      #row2:hover #avi2 {
+      	background-position: -814px -15px ;
+      }
+
+      #row3:hover #circle3 {
+        background-color: #dddddd;
+      }
+
+      #row3:hover #avi3 {
+      	background-position: -814px -15px ;
+      }
+
+      #row4:hover #circle4 {
+        background-color: #dddddd;
+      }
+
+      #row4:hover #avi4 {
+      	background-position: -814px -15px ;
       }
 
 /*analytics*/
@@ -477,133 +619,7 @@ input[type="checkbox"]:checked + label span {
 
 
 
-/*tasks*/
 
-.left{
-  background: url(leftborder.png) no-repeat left;
-  background-size: 35px 100%;
-  border-left: 1px solid #ededed;
-}
-
-.sidebar-left {
-  float:left;
-}
-
-.sidebar-style {
-  font-size: 18px;
-  color: #2498f4;
-  font-weight: normal;
-  cursor: pointer;
-}
-
-.sidebar-style div{
-  vertical-align: middle;
-}
-
-.sidebar-style .row {
-    margin-top: 15px;
-}
-
-.sidebar-style .row:hover{
-  color: #dddddd;
-}
-
-.tasks-settings-icon {
-  float: right;
-}
-
-.task-settings span {
-  font-size: 21px;
-  font-weight: normal;
-  font-style: normal;
-}
-
-.tasks-settings-icon {
-  padding-right: 40px;
-}
-
-
-.blue-head {
-    background-image: url('customer-count-line.png');
-    background-size: contain;
-    cursor: pointer;
-    float: left;
-    margin-right: 8px;
-    margin-left:3px;
-}
-
-.green-circle {
-   background-image: url('grey-circle.png');no-repeat;
-}
-
-.green-circle:hover {
-  opacity:0;
-  background-image: url('grey-circle.png');no-repeat;
-  display:block;
-}
-
-.border-bottom {
-  border-bottom: 1px solid #ddd;
-  margin-right:0;
-}
-
-.circle{
-  width:24px;
-  height:24px;
-  border-radius: 50%;
-  background-color: #32cc66;
-  text-align: center;
-  vertical-align: middle;
-  color: #ffffff;
-  font-size: 18px;
-  margin-bottom: 5px;
-}
-
-
-.avi-box {
-  font-size: 15px;
-  border: 1px solid #dddddd;
-  border-radius: 3px;
-  position: relative;
-  padding: 3px;
-  margin-bottom: 8px;
-  vertical-align: top;
-  width: auto;
-  display:block;
-}
-
-
-#row1:hover #circle1 {
-  background-color: #dddddd;
-}
-
-#row1:hover #avi1 {
-	background-position: -814px -15px ;
-}
-
-#row2:hover #circle2 {
-  background-color: #dddddd;
-}
-
-#row2:hover #avi2 {
-	background-position: -814px -15px ;
-}
-
-#row3:hover #circle3 {
-  background-color: #dddddd;
-}
-
-#row3:hover #avi3 {
-	background-position: -814px -15px ;
-}
-
-#row4:hover #circle4 {
-  background-color: #dddddd;
-}
-
-#row4:hover #avi4 {
-	background-position: -814px -15px ;
-}
 
 
 /*rec*/
@@ -619,7 +635,7 @@ input[type="checkbox"]:checked + label span {
 }
 
 
-/*contacts customers boxes*/
+/*contacts & customers boxes*/
 
 
 .badgebox{
@@ -638,7 +654,7 @@ input[type="checkbox"]:checked + label span {
   height:50px;
   background-color: #2394ee;
   color: #ffffff;
-  font-size: 21px;
+  font-size: 20px;
   text-align: center;
   display:inline;
   position:absolute;
@@ -649,7 +665,7 @@ input[type="checkbox"]:checked + label span {
 }
 
 .ribbon span{
-  font-size:11px;
+  font-size:10px;
   display:block;
 }
 
@@ -667,7 +683,7 @@ input[type="checkbox"]:checked + label span {
   z-index:200;
 }
 
-.backsquare{
+.con-cus-border{
   height:195px;
   left:15px;
   right:15px;
@@ -757,6 +773,85 @@ input[type="checkbox"]:checked + label span {
 
 /*footer*/
 
-.footer-social {
+
+.fsection{
+  display:inline;
+  float:left;
+  border-right: thin;
+  padding: 0px 10px;
+  border-right: thin solid #dddddd;
+  height: 40px;
+  padding-top:15px;
+  margin-top:8px;
+  width: 100%;
+}
+
+#footer{
+  background: url(footer.png) no-repeat;
+  background-size: 100% 51px;
+  height:51px;
+  font: 14px;
+  color: #999999;
+}
+
+.fsection span{
+  border-right: thin solid #dddddd;
+  padding:0px 10px;
+}
+
+.fsection a:hover{
+  text-decoration:none;
+  color: #2498f2;
+}
+
+.fsection a:active{
+  color:#33cc66;
+}
+
+#fright{
+  text-align:right;
+}
+
+#footer p{
+  font-weight: 900;
+  fpmt-size: 14px;
+  color: #2498f2;
+}
+
+
+.fright{
   float:right;
+}
+
+a .socialsprite {
+  display: inline;
+  float: left;
+  margin-right: 5px;
+}
+
+.social {
+  width: auto;
+}
+
+#FB, #FS, #TW, #YT {
+  display: inline;
+  float:left;
+  cursor: pointer;
+  margin-right: 5px;
+}
+
+#FB:hover{
+  background-position: -40px -21px ;
+}
+
+#FS:hover{
+  background-position: 0 -22px ;
+}
+
+#TW:hover{
+  background-position: -19px 0;
+}
+
+#YT:hover{
+  background-position: -60px 0;
 }

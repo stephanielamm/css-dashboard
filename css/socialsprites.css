@@ -1,0 +1,51 @@
+.FB, .FBg, .FS, .FSg, .YTg, .YT, .TWg, .TW{
+	background: url(socialsprites.png) no-repeat;
+}
+
+.FB{
+	background-position: -60px -21px ;
+	width: 16px;
+	height: 16px;
+}
+
+.FBg{
+	background-position: -40px -21px ;
+	width: 16px;
+	height: 16px;
+}
+
+.FS{
+	background-position: -19px -22px ;
+	width: 16px;
+	height: 16px;
+}
+
+.FSg{
+	background-position: 0 -22px ;
+	width: 16px;
+	height: 16px;
+}
+
+.YTg{
+	background-position: -60px 0;
+	width: 16px;
+	height: 16px;
+}
+
+.YT{
+	background-position: -40px 0;
+	width: 16px;
+	height: 16px;
+}
+
+.TWg{
+	background-position: -19px 0;
+	width: 16px;
+	height: 16px;
+}
+
+.TW{
+	background-position: 0 0;
+	width: 16px;
+	height: 16px;
+}
