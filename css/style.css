@@ -881,3 +881,9 @@ a .socialsprite {
 #YT:hover{
   background-position: -60px 0;
 }
+
+@media (max-width: 992px){
+  .mobile-dissapear{
+    visibility:hidden;
+  }
+}
