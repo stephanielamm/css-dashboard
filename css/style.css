@@ -102,6 +102,11 @@ b{
     padding-right:10px;
     padding-top:0;
     font-size: 10px;
+    cursor: pointer;
+}
+
+.mini {
+  cursor: pointer;
 }
 
 .icon-settings {
@@ -398,15 +403,6 @@ form {
           margin-left:3px;
       }
 
-      .green-circle {
-         background-image: url('grey-circle.png');no-repeat;
-      }
-
-      .green-circle:hover {
-        opacity:0;
-        background-image: url('grey-circle.png');no-repeat;
-        display:block;
-      }
 
       .border-bottom {
         border-bottom: 1px solid #ddd;
@@ -470,6 +466,11 @@ form {
       #row4:hover #avi4 {
       	background-position: -814px -15px ;
       }
+
+
+
+
+
 
 /*analytics*/
 
@@ -651,6 +652,10 @@ input[type="checkbox"]:checked + label span {
     color: #888888;
 }
 
+.text-article:hover {
+  text-decoration:none;
+  color: #2498f4;
+}
 
 /*contacts & customers boxes*/
 
