@@ -2,6 +2,9 @@
   border: 1px #CCCCCC solid;
 }
 */
+
+
+
 .sprite {
   display: block;
 }
@@ -385,6 +388,95 @@ form {
     padding-right: 0px;
     float: right;
 }
+
+/*social*/
+.emptybox{
+  width: 16px;
+  height:16px;
+  border: thin solid #dddddd;
+  border-radius: 2px;
+  position: absolute;
+  bottom:0px;
+  left:0px;
+  padding:0px;
+  display: inline;
+}
+
+.checkwrap{
+  width:24px;
+  height:24px;
+  position:relative;
+  float:left;
+  display: inline;
+  margin-left: 10px;
+}
+
+.socialcheck{
+  position: absolute;
+  bottom: 0px;
+  left:0px;
+  display: inline;
+}
+
+.socialempty {
+  position: absolute;
+  bottom: 2px;
+  left: 2px;
+  display: inline;
+}
+
+.sociallabel{
+  float:left;
+  display:inline;
+  border: none;
+  border-radius: 3px;
+  background-color: #000000;
+  color: #ffffff;
+  font-size: 12px;
+  padding: 3px 13px 3px 8px;
+  margin-top: 3px;
+}
+
+#socialbuttons{
+  width:450px;
+  float:none;
+  margin: 0 auto;
+}
+
+#facebook{
+  background-color: #114570;
+}
+
+#twitter{
+  background-color: #2298f4;
+}
+
+#foursquare{
+  background-color: #3a599b;
+}
+
+#googleplus{
+  background-color: #31cc66;
+}
+
+/* CUSTOM CHECK MARK METHOD FROM Sara Soueidan
+http://blogs.adobe.com/dreamweaver/2015/08/css-vs-svg-styling-checkboxes-and-radio-buttons.html
+*/
+input[type="checkbox"] + label span {
+  display: inline-block;
+  vertical-align: middle;
+  width: 25px;
+  height: 22px;
+  background: url(customempty.png) bottom left no-repeat;
+}
+
+input[type="checkbox"]:checked + label span {
+  background: url(customcheck.png) bottom left no-repeat;
+
+}
+
+
+
 /*tasks*/
 
 .left{
@@ -529,6 +621,7 @@ form {
 
 /*contacts customers boxes*/
 
+
 .contacts-border{
   border-top-style:solid;
   border-top-width:1px;
@@ -586,6 +679,7 @@ form {
   left: 135px;
 }
 
+
 /*ads*/
 
 .ads {
@@ -620,6 +714,7 @@ form {
     color: white;
  }
 
+
  .back-arrow {
    margin-bottom: -110px;
  }
@@ -628,6 +723,7 @@ form {
    margin-top: -94px;
 
  }
+
 
 /*footer*/
 
