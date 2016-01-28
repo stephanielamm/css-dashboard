@@ -262,9 +262,12 @@ form {
   line-height:60px;
 }
 
-.announcements-shrink {
-  size: 80%;
-}
+@media (max-width: 992px) {
+
+  .mobile-shrink{
+    font-size: 8px;
+  }
+
 
 .content{
   //border-left: 1px solid #eeeeee;
