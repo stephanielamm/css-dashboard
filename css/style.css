@@ -296,8 +296,8 @@ form {
 }
 
 .chan-ref {
-  padding-left:20px;
-  padding-right:20px;
+  padding-left:0px;
+  padding-right:0px;
   padding-bottom:0px;
   padding-top:40px;
 }
@@ -311,16 +311,25 @@ form {
 #channels {
   height:79px;
   width: 80px;
+  display:block;
 }
 
 #referrals {
   height:79px;
   width: 80px;
+  display:block;
 }
 
 .imgstretch{
-  width:100%;
-  height:auto;
+  width: 100%;
+  height: auto;
+  padding: 10px 20px 0px;
+}
+
+.bleft{
+  background: url(div-line.png) no-repeat left;
+  background-size: 35px 100%;
+  border-left: 1px solid #ededed;
 }
 
 /*tasks*/
@@ -362,9 +371,11 @@ form {
   font-weight: normal;
   font-style: normal;
 }
+
 .tasks-settings-icon {
   padding-right: 40px;
 }
+
 
 .blue-head {
   background-image: url('customer-count-line.png');
@@ -401,20 +412,21 @@ form {
 }
 
 .blue-head{
-  display: inline-block;
   margin-top: 3px;
 }
 
 .avi-box {
   font-size: 15px;
-  //line-height: 10px;
+  line-height: 10px;
   border: 1px solid #dddddd;
   border-radius: 3px;
   position: relative;
   padding: 3px;
   vertical-align: top;
   width: auto;
+  display:block;
 }
+
 
 #row1:hover #circle1 {
   background-color: #dddddd;
@@ -457,10 +469,8 @@ form {
 }
 
 .text-article{
-  line-height: 80%;
-    margin-top: -35px;
-    margin-left: 35px;
-    color: #777777;
+  line-height: 90%;
+    color: #888888;
 }
 
 
